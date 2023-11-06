@@ -5,7 +5,7 @@ require("dotenv").config();
 const app = express();
 
 const configuration = new Configuration({
-  apiKey: process.env.SECRET_KEY_OPENAI,
+  apiKey: "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",
 });
 const openai = new OpenAIApi(configuration);
 
