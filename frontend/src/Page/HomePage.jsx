@@ -37,7 +37,7 @@ function App() {
     setLoading(true);
     try {
       const response = await fetch(
-        "https://storygenerator-omav.onrender.com/story",
+        "https://storygeneratorai-3kxg.onrender.com/story",
         {
           method: "POST",
           body: JSON.stringify({ keywordsArray: keywords, language }),
